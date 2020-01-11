@@ -1,17 +1,15 @@
 type : aerospike
 port : 3000
-groups :
+groups:
   -
-    group :
       default : true
       servers :
         - 127.0.0.1
         - 127.0.0.2
   -
-    group :
       key :
         zone : alpha
-        gameCode : ['bnsmkr', 'bnsmjp']
+        app : ['bnsmkr', 'bnsmjp']
       servers :
         - 127.0.0.3
         - 127.0.0.4

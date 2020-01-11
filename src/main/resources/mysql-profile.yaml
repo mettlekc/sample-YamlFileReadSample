@@ -1,0 +1,10 @@
+type : mysql
+port : 41051
+groups :
+  -
+    group :
+      default : true
+      server :
+        - 127.0.0.5
+        - 127.0.0.6
+        - 127.0.0.7
